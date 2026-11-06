@@ -1,4 +1,6 @@
 # SO Enterprise Network | Cisco Packet Tracer
+<img width="1437" height="905" alt="topology" src="https://github.com/user-attachments/assets/4ee99f9e-db91-40fc-b9e9-ecdd3b891100" />
+
 
 In this project, I designed and tested a Cisco Packet Tracer enterprise network demonstrating departmental network segmentation, inter VLAN routing, DHCP, access control lists, NAT overload, DNS, simulated web access, IP telephony, quality of service and access layer security.
 
