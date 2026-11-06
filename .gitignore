@@ -1,0 +1,19 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Backups and temporary files
+*.bak
+*.tmp
+
+# Unsanitised device configs. Keep raw `show run` output here, never commit it.
+configs/raw/
+*.raw.txt

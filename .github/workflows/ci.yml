@@ -1,0 +1,22 @@
+name: Repository checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check links, screenshots and secrets
+        run: bash scripts/check-repo.sh
+
+      - name: Lint Markdown
+        run: npx --yes markdownlint-cli@0.41.0 "**/*.md"

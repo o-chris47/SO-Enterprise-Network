@@ -1,0 +1,12 @@
+# Normalise line endings (device configs pasted from Windows arrive as CRLF)
+* text=auto eol=lf
+
+*.md  text eol=lf
+*.txt text eol=lf
+*.sh  text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+
+# Binary files
+*.png binary
+*.pkt binary
